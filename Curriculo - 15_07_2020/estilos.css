@@ -1,0 +1,137 @@
+body {
+    background-image: url("images/background.png");
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 80%;
+    border: thin grey solid;
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalho {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rosybrown;
+}
+.menu {
+    width: 960px;
+    box-sizing: border-box;
+    display: flex;
+}
+.item {
+    padding: 10px;
+    margin-right: 1%;
+    width: 20%;
+    text-align: center;
+    background-color: rosybrown;
+}
+.item-fim {
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    background-color: rosybrown;
+}
+h4 {
+    text-decoration: underline;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    background-color: rgb(185, 183, 183);
+}
+.i:hover {
+    background-color: white;
+}
+.perfil {
+    box-sizing: border-box;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.hobbies {
+    width: 360px;
+
+}
+.hobby {
+    border: thin grey solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.hobby:hover{
+    border: rosybrown solid;
+    border-radius: 20px;
+}
+section {
+    width: 960px;
+    box-sizing: border-box;
+    border: thin black dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+footer {
+    width: 960px;
+    margin-top: 10px;
+}
+.links {
+    width: 300px;
+    border: thin grey solid;
+    padding: 30px;
+}
+.passatempos {
+    width: 660px;
+    border: thin grey solid;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.meio {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+}
+.imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formulario {
+    width: 960px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: thin grey solid;
+}
+input:focus {
+    background-color: rgba(179, 179, 179, 0.5);
+}
+textarea:focus {
+    background-color: rgba(179, 179, 179, 0.5);
+}
+textarea {
+    width: 500px;
+    resize: vertical;
+}
