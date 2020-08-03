@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet">
+    <script src="tarefa.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body id="body">
+    <div class="container">
+        <div class="botao" onclick="cumprimentar()">
+            Cumprimentar
+        </div>
+        <div class="botao" onclick="trocarFundo()" ondblclick="trocarFundo2()" >
+            Alterar Fundo
+        </div>
+        <div class="imagem">
+            <img class="foto" onmouseover="vendoImagem()" src="images/cerebro.png" />
+        </div>
+        <div class="imagem">
+            <img class="foto" id="neuronio" onclick="clicandoImagem()" src="images/neuronios.png" />
+        </div>
+    </div>
+</body>
+</html>
