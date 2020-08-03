@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    width: 1200px;
+    border: thin black solid;
+    display: flex;
+    flex-direction: row;
+}
+.cabecalho {
+    width: 1200px;
+    height: 240px;
+    border: thin black solid;
+    background-color: coral;
+    color: white;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-size: 1.75em;
+}
+p {
+    font-size: 0.8125em;
+    line-height: 23px;
+    text-align: justify;
+}
+strong {
+    font-size: 0.9375em;
+}
+.caixa-a {
+    width: 20.833%;
+    border: thin black solid;
+}
+.caixa-b {
+    width: 66.667%;
+    border: thin black solid;
+    margin-left: 2.083%;
+    margin-right: 2.083%;
+}
+.caixa-c {
+    width: 8.333%;
+    border: thin black solid;
+}
+@media (max-width: 900px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+    .cabecalho {
+        width: 95%;
+    }
+    .caixa-a {
+        width: 40%;
+        float: left;
+    }
+    .caixa-b {
+        width: 55%;
+        margin: 0px;
+        float: right;
+    }
+    .caixa-c {
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .caixa-a {
+        width: 100%;
+    }
+    .caixa-b {
+        width: 100%;
+    }
+    .caixa-c {
+        width: 100%;
+    }
+}
